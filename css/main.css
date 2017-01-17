@@ -1,0 +1,8 @@
+﻿html,
+body {
+  font-family: helvetica, 微软雅黑, "microsoft yahei", Verdana, Lucida, arial, sans-serif, 黑体;
+}
+
+* {
+  box-sizing: border-box;
+}

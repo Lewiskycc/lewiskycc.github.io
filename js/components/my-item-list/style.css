@@ -1,0 +1,13 @@
+.myradio {
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+.myradiocontainer {
+	display: inline-block;
+	margin: 10px;
+	font-size: 14px;
+}
+.itemList {
+  margin-top: 60px;
+}

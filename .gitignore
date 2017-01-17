@@ -1,0 +1,3 @@
+# the ignore files
+node_modules
+.idea

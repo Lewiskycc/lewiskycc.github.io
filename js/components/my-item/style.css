@@ -1,0 +1,22 @@
+.myitem-yes {
+  line-height: 30px;
+  vertical-align: middle;
+  cursor: normal;
+}
+
+.myitem-no {
+  line-height: 30px;
+  text-decoration: line-through;
+  color: gray;
+  vertical-align: middle;
+  cursor: normal;
+}
+
+.myitem-closebtn {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
