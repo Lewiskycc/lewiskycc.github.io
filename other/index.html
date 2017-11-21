@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 视口设置 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>个人简历</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <!-- Link bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.js"></script>
+    <![endif]-->
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
+    <!-- Link animate's CSS-->
+    <link rel="stylesheet" href="./lib/animation/animate.css"/>
+    <!-- Link index's CSS -->
+    <link rel="stylesheet" href="./css/index.css"/>
+    <!-- Link star's CSS -->
+    <link rel="stylesheet" href="./css/star.css"/>
+
+</head>
+<body>
+<!-- <div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div> -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="nav-header-logo" >
+                <img class="collapse navbar-collapse" src="./images/xxx.jpg" alt="logo"/>
+                <a class="navbar-brand" href="#" style="color: white">Lewisky</a>
+            </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#" onfocus="this.blur()"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>个人资料</a></li>
+                <!--<li><a href="#" onfocus="this.blur()"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Information</a></li>-->
+                <li><a href="#" onfocus="this.blur()"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> 职业技能</a></li>
+                <li><a href="#" onfocus="this.blur()"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> 作品展示</a></li>
+                <li><a href="#" onfocus="this.blur()"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 联系我</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!-- first page start-->
+         <div class="slidePage1 swiper-slide">
+            <div class="swiper-slide-page1 container-fluid">
+                <div class="row">
+                    <span class="imgBox animated bounceInDown"></span>
+                    <p class="myName animated bounceInLeft hidden-xs">前端开发工程师</p>
+                    <div class="leftline animated fadeInLeft"></div>
+                    <p class="c_sony animated bounce">西安仙童网络科技有限公司<br/>2015.4 ~ 2016.7</p>
+                    <div class="centerline animated fadeInUp"></div>
+                    <div class="rightline animated fadeInRight"></div>
+                    <p class="c_biake animated bounce">陕西矢控科技有限公司<br/>2014.3 ~ 2015.3</p>
+
+                    <div class="stars">
+                        <div class="star"></div>
+                        <div class="star pink"></div>
+                        <div class="star blue"></div>
+                        <div class="star green"></div>
+                        <div class="star yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first page end-->
+        <!-- second page start-->
+        <div class="slidePage2 swiper-slide">
+            <div class="swiper-slide-page2 container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 hidden-xs animated fadeInUp">
+                        <div id="skillContainer"></div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="fextimes-info">
+                            <h3><strong class="colorPink Size40" >职业技能</strong></h3>
+                            <p class="person-sign">用学习的心做事，用感恩的心做人！</p>
+                            <ul>
+                                <li>
+                                    熟练使用<strong class="colorPink ">HTML</strong>/<strong class="colorPink">CSS</strong>进行页面布局，开发符合W3C标准、兼容各大主流浏览器的前端页面，对<strong class="colorPink">HTML</strong>语义化有深刻理解;
+                                </li>
+                                <li>
+                                    熟练掌握<strong class="colorPink">JavaScript</strong>中<strong class="colorPink">DOM操作</strong>、<strong class="colorPink">AJAX交互</strong>、<strong class="colorPink">JSONP跨域</strong>等前端技术，
+                                    会使用原生JavaScript实现页面的常见特效，对<strong class="colorPink">面向对象编程思想</strong>有一定认识;
+                                </li>
+                                <li>
+                                    熟练运用<strong class="colorPink">jQuery</strong>、<strong class="colorPink">zeptoJs</strong>、 <strong class="colorPink">Bootstrap</strong>等JavaScript库或框架进行高效开发，实现页面需求；
+                                </li>
+                                <li>
+                                    了解<strong class="colorPink">HTML5</strong>/<strong class="colorPink">CSS3</strong>特性和规范、<strong class="colorPink">AngularJs</strong>、<strong class="colorPink">ReactJs</strong>等前端框架；
+                                </li>
+                                <li>
+                                    了解<strong class="colorPink">自动化工作流Gulp</strong>、<strong class="colorPink">版本控制Git/SVN</strong>、<strong class="colorPink">包管理npm/bower</strong>等工具的使用方法；
+                                </li>
+                                <li>
+                                    了解<strong class="colorPink">VB</strong>、<strong class="colorPink">C#</strong>等后端开发语言，熟悉<strong class="colorPink">SQL Server</strong>的数据库编程开发；
+                                </li>
+                                <li>
+                                    有较强的<strong class="colorPink">学习能力</strong>和<strong class="colorPink">主动性</strong>,注重<strong class="colorPink">代码的简洁性</strong>、<strong class="colorPink">重用性</strong>、<strong class="colorPink">组件化</strong>；
+                                </li>
+                                <li>
+                                    通过<strong class="colorPink">CET-4</strong>，能阅读计算机相关的英文文档。
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second page end-->
+        <!-- third page start-->
+        <div class="slidePage3 swiper-slide">
+            <div class="swiper-slide-page3 container">
+                <div class="row">
+                    <div class="build col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
+                        <p class="hidden-xs"><span> 案 例 </span></p>
+                        <p>· DEMO ·</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="todomvc col-xs-12 col-sm-6 col-md-3 p1">
+                        <div class="img">
+                            <i></i>
+                            <div class="mask"><a href="./douban/app/index.html">AngularJs应用</a></div>
+                        </div>
+                    </div>
+                    <div class="todomvc col-xs-12 col-sm-6 col-md-3 p2">
+                        <div class="img">
+                            <i></i>
+                            <div class="mask">todomvc案例</a></div>
+                        </div>
+                    </div>
+                    <div class="todomvc col-xs-12 col-sm-6 col-md-3 p3">
+                        <div class="img">
+                            <i></i>
+                            <div class="mask">AngularJs应用</div>
+                        </div>
+                    </div>
+                    <div class="todomvc col-xs-12 col-sm-6 col-md-3 p4">
+                        <div class="img">
+                            <i></i>
+                            <div class="mask">AngularJs应用</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="myInfoText col-xs-10 col-xs-offset-1 hidden-sm">
+                        <p>正在积极建设中……</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third page end-->
+        <!-- fourth page start-->
+        <div class="slidePage4 swiper-slide">
+            <div class="swiper-slide-page4 container">
+                <div class="row">
+                    <div class="aboutMe col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
+                        <p class="hidden-xs"><span>关 于 我</span></p>
+                        <p>· ABOUT ME ·</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="myInfoImg">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <i class="icon-user"></i><br/>
+                            <span>李佳兵</span>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <i class="glyphicon glyphicon-education"></i><br/>
+                            <span>学历 本科</span>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <i class="icon-map-marker"></i><br/>
+                            <span>广东 广州</span>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <i class="icon-envelope-alt"></i><br/>
+                            <span>lewiskycc@hotmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="myInfoText col-xs-10 col-xs-offset-1 hidden-xs">
+                        <p>2015年毕业于延安大学，专业是电子信息工程</p>
+                        <p>有较强的自主编程以及团队合作能力。善于快速学习并使用新的技术，最后感谢您查阅我的简历，期待能和您一起共事。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth page end-->
+    </div>
+    <!-- Add Pagination -->
+    <!--<div class="swiper-pagination"></div>-->
+</div>
+
+
+<!-- Swiper JS -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/swiper/js/swiper.jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- index JS -->
+<script src="./js/index.js"></script>
+
+<script src="./lib/konva/konva.js"></script>
+<script src="js/myCircle.js"></script>
+<script>
+    window.onload = function () {
+        //1.0创建舞台对象
+        var stage = new Konva.Stage({
+            container: "skillContainer",
+            width: 540,
+            height:  720
+        });
+        //2.0创建层
+        var layer = new Konva.Layer();
+        //3.0创建三个组：背景，顺时针，逆时针
+        var bgGroup = new Konva.Group({
+            x: stage.width()/2,
+            y: stage.height()/2
+        });
+        var animateRight = new Konva.Group({
+            x: stage.width()/2,
+            y: stage.height()/2
+        });
+        var animateLeft = new Konva.Group({
+            x: stage.width()/2,
+            y: stage.height()/2
+        });
+        //4.0绘制背景
+        //4.1绘制大圆
+        var outerCircle = new Konva.Circle({
+            x: 0,
+            y: 0,
+            radius: 388/2,
+            stroke: "pink",
+            strokeWidth: 2,
+            opacity: 0.4,
+            dash: [4,6,2]
+        });
+        //4.2绘制中圆
+        var middleCircle = new Konva.Circle({
+            x: 0,
+            y: 0,
+            radius: 246/2,
+            stroke: "green",
+            strokeWidth: 2,
+            opacity: 0.1,
+            dash: [6,3]
+        });
+        //4.3绘制最小的圆
+        var smallCircle = new Konva.Circle({
+            x: 0,
+            y: 0,
+            radius: 226 /2,
+            stroke: 'blue',
+            strokeWidth: 2,
+            opacity: 0.5,
+            dash: [4,6]
+        });
+        //4.4绘制最小的实心圆
+        var fullCircle = new Konva.Circle({
+            x: 0,
+            y: 0,
+            radius: 120 /2,
+            fill: "#2A3466"
+            // opacity: 0.5
+        });
+        //4.5绘制圆环
+        var ring = new Konva.Ring({
+            x: 0,
+            y: 0,
+            innerRadius: 120/2,
+            outerRadius: 160/2,
+            fill: "#2A3466",
+            opacity: 0.1
+        });
+        //4.6绘制文本
+        var simpleText = new Konva.Text({
+            x: 0 - 60,
+            y: 0 - 8,
+            text: 'web 前端',
+            fontSize: 16,
+            fontFamily: '微软雅黑',
+            strokeWidth: 1,
+            stroke: 'white',
+            width: 120,
+            align: 'center'
+        });
+        bgGroup.add(outerCircle);
+        bgGroup.add(middleCircle);
+        bgGroup.add(smallCircle);
+        bgGroup.add(fullCircle);
+        bgGroup.add(ring);
+        bgGroup.add(simpleText);
+
+        //5.0绘制顺时针动画
+        var Canvas = new MyCircle({
+            x: 0 + Math.cos(72*Math.PI/180)*194,
+            y: 0 + Math.sin(72*Math.PI/180)*194,
+            innerRadius: 80/2,
+            outerRadius: 96/2,
+            innerColor: "#EDF35F",
+            outerColor: "#EDF35F",
+            innerOpacity: 0.7,
+            outerOpacity: 0.1,
+            text: "Canvas",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        Canvas.addToGroupOrLayer(animateRight);
+
+        var Bootstrap = new MyCircle({
+            x: 0 + Math.cos(144*Math.PI/180)*194,
+            y: 0 + Math.sin(144*Math.PI/180)*194,
+            innerRadius: 80/2,
+            outerRadius: 96/2,
+            innerColor: "red",
+            outerColor: "red",
+            innerOpacity: 0.6,
+            outerOpacity: 0.1,
+            text: "Bootstrap",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        Bootstrap.addToGroupOrLayer(animateRight);
+
+        var reactJs = new MyCircle({
+            x: 0 + Math.cos(216*Math.PI/180)*194,
+            y: 0 + Math.sin(216*Math.PI/180)*194,
+            innerRadius: 80/2,
+            outerRadius: 96/2,
+            innerColor: "#CF2782",
+            outerColor: "#CF2782",
+            innerOpacity: 0.8,
+            outerOpacity: 0.1,
+            text: "reactJs",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        reactJs.addToGroupOrLayer(animateRight);
+
+        var zeptoJs = new MyCircle({
+            x: 0 + Math.cos(288*Math.PI/180)*194,
+            y: 0 + Math.sin(288*Math.PI/180)*194,
+            innerRadius: 80/2,
+            outerRadius: 96/2,
+            innerColor: "#6496FA",
+            outerColor: "blue",
+            innerOpacity: 0.8,
+            outerOpacity: 0.1,
+            text: "zeptoJs",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        zeptoJs.addToGroupOrLayer(animateRight);
+        var AngularJs = new MyCircle({
+            x: 0 + Math.cos(360*Math.PI/180)*194,
+            y: 0 + Math.sin(360*Math.PI/180)*194,
+            innerRadius: 80/2,
+            outerRadius: 96/2,
+            innerColor: "#FF2796",
+            outerColor: "red",
+            innerOpacity: 0.7,
+            outerOpacity: 0.1,
+            text: "AngularJs",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        AngularJs.addToGroupOrLayer(animateRight);
+        //6.0绘制逆时针动画
+        var HTML5 = new MyCircle({
+            x: 0 + Math.cos(60*Math.PI/180)*113,
+            y: 0 + Math.sin(60*Math.PI/180)*113,
+            innerRadius: 64/2,
+            outerRadius: 78/2,
+            innerColor: "#FF6464",
+            outerColor: "red",
+            innerOpacity: 0.7,
+            outerOpacity: 0.1,
+            text: "HTML5",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        HTML5.addToGroupOrLayer(animateLeft);
+
+        var CSS3 = new MyCircle({
+            x: 0 + Math.cos(150*Math.PI/180)*113,
+            y: 0 + Math.sin(150*Math.PI/180)*113,
+            innerRadius: 64/2,
+            outerRadius: 78/2,
+            innerColor: "#94FFA3",
+            outerColor: "green",
+            innerOpacity: 0.8,
+            outerOpacity: 0.1,
+            text: "CSS3",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        CSS3.addToGroupOrLayer(animateLeft);
+        var jQuery = new MyCircle({
+            x: 0 + Math.cos(240*Math.PI/180)*113,
+            y: 0 + Math.sin(240*Math.PI/180)*113,
+            innerRadius: 64/2,
+            outerRadius: 78/2,
+            innerColor: "#9696FF",
+            outerColor: "blue",
+            innerOpacity: 0.7,
+            outerOpacity: 0.1,
+            text: "jQuery",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        jQuery.addToGroupOrLayer(animateLeft);
+        var nodeJs = new MyCircle({
+            x: 0 + Math.cos(330*Math.PI/180)*113,
+            y: 0 + Math.sin(330*Math.PI/180)*113,
+            innerRadius: 64/2,
+            outerRadius: 78/2,
+            innerColor: "#D59BF2",
+            outerColor: "#D59BF2",
+            innerOpacity: 0.7,
+            outerOpacity: 0.1,
+            text: "nodeJs",
+            fontSize: 16,
+            fontFamily: "微软雅黑",
+            color: "white"
+        });
+        nodeJs.addToGroupOrLayer(animateLeft);
+        //绘制
+        layer.add(bgGroup);
+        layer.add(animateRight);
+        layer.add(animateLeft);
+        stage.add(layer);
+
+        //7.0追加动画
+        var angularSpeed = 60;
+        var anim = new Konva.Animation(function(frame) {
+            var angleDiff = frame.timeDiff * angularSpeed / 1000;
+            //顺时针
+            animateRight.rotate(angleDiff);
+            animateRight.getChildren().each(function (item,index) {
+                item.rotate(-angleDiff);
+            });
+            //逆时针
+            animateLeft.rotate(-angleDiff);
+            animateLeft.getChildren().each(function (item,index) {
+                item.rotate(angleDiff);
+            })
+        }, layer);
+        anim.start();
+        //8.0添加鼠标事件
+        stage.on('mouseover', function () {
+            angularSpeed = 30;
+        });
+        stage.on('mouseout', function () {
+            angularSpeed = 60;
+        });
+    }
+</script>
+
+</body>
+</html>
